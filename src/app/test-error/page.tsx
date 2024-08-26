@@ -1,12 +1,17 @@
 'use client';
 
-import { useState } from "react"
-
 
 export default function TestError() {
-    const [count, setCount] = useState(1);
 
-    if(count === 1) {
+    const getRandomInt = (count: number) => {
+        return Math.floor(Math.random() * count)
+    }
+
+    const random = getRandomInt(2);
+
+    console.log(random);
+    
+    if (random === 1) {
         throw new Error('This is a message from test-error problem');
     }
 
