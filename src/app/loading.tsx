@@ -7,7 +7,8 @@ export default function Loading() {
     );
   }
   
-  /**
+{
+    /**
    * 
    * 
    * A loading.tsx fájl a Next.js 13 és újabb verzióiban (beleértve a Next.js 14-et is) az app directory használatával kerül bevezetésre, és a betöltési állapot kezelésére szolgál az adott útvonal vagy oldal betöltésekor. Ez a fájl akkor jelenik meg, amikor az oldalt kiszolgáló adatokat vagy egyéb erőforrásokat még be kell tölteni, vagy amikor egy Suspense-be ágyazott komponens várakozik az adatok betöltésére.
@@ -22,3 +23,4 @@ Renderelés és Megjelenítés:
 A Next.js automatikusan megjeleníti a loading.tsx fájl tartalmát, amikor az oldal vagy komponens adatokat tölt be (Suspense blokkon belül) vagy más aszinkron művelet zajlik.
 Amint az adatok betöltődtek vagy a komponens készen áll a megjelenítésre, a loading.tsx tartalma eltűnik, és az eredeti oldal/komponens jelenik meg.
    */
+}

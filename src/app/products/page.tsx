@@ -1,4 +1,3 @@
-import { Metadata } from "next"; // Ensure this import is correct and used properly
 import Link from "next/link";
 
 
@@ -8,7 +7,7 @@ export default function Products() {
         <>
             <Link href='/products/1'>Product 1</Link>
             <Link href='/products/2'>Product 2</Link>
-            <Link href="/products/3" replace>Product 3</Link> // Replace 
+            <Link href="/products/3" replace>Product 3</Link>  
             
 
         </>

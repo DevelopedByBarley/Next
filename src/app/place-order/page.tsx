@@ -8,9 +8,15 @@ export default function PlaceOrder() {
     const handleClick = () => {
         console.log('Hello');
         router.push('/');
-        //router.replace('/');
-        //router.forward('/');
-        //router.back();
+        {
+            /* router.replace('/') */
+        }
+        {
+            /* router.forward('/') */
+        }
+        {
+            /* router.back() */
+        }
     }
 
     return (
