@@ -13,13 +13,17 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+ 
+
+
   return (
     <html lang="en">
       <body>
-      <header style={{ minHeight: '200px', background: 'lightgreen' }}>Header</header>
+        <header style={{ minHeight: '200px', background: 'lightgreen' }}>Header</header>
         {children}
-      <footer style={{ minHeight: '200px', background: 'lightblue' }}>Footer</footer>
-        </body>
+        <footer style={{ minHeight: '200px', background: 'lightblue' }}>Footer</footer>
+      </body>
     </html>
   )
 }

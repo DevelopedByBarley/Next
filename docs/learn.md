@@ -28,3 +28,9 @@ profile->page.tsx => /profile
     (auth) -> login => /login 
                -> register => /register
                -> forgot-password => /forgot-password
+
+
+
+Ep 27 
+
+Ha error filet rakunk a layout mellé az nem jó , feljebb kell helyezni a parent folderbe
